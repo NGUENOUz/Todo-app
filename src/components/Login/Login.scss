@@ -1,0 +1,88 @@
+$blanc:rgb(253, 249, 249);
+$bleu:rgb(57, 126, 255);
+$rouge:red;
+$fond:transparent;
+
+
+
+body{
+  background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);;
+}
+
+.login-form{
+    max-width: 400px;
+    height: 400px;
+    margin-top: 6%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 0px 2px  $blanc;
+    background: $fond;
+    text-align: center;
+    margin-left: 35%;
+    display: block;
+    overflow: hidden;
+
+    h1{
+        color:$bleu;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+    }
+    form{
+ 
+        margin: 10%;
+        margin-left: 20%;
+        transform: translateY(1%);
+        width: 300px;
+        height: 400px ;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+
+        P{
+          margin-left: -12%;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+       :nth-child(1){
+        margin-top: -4%;
+       }
+        p{
+            text-align: center;
+        }
+      input{
+        justify-content: center;
+       width: 250px;
+       height: 20px; 
+       display: flex;
+       flex-direction: column;
+       padding-left: 1%;
+       margin-top: 4%;
+       border-left: none;
+       border-top: none;
+       border-right: none;
+       border-bottom: 2px solid $bleu;
+       outline: none;
+       background-color: transparent;
+      }
+
+      .btn-submit{
+       
+margin-top: 14%;
+margin-left: -6%;
+  
+
+        button{
+            width: 120px;
+            height: 30px;
+            border: 1px solid $blanc;
+            border-radius: 12px;
+            cursor: pointer;
+            content: "Connect ";
+            color: $blanc;
+            background: $bleu;
+        }
+      }
+      .btn-sign{
+        margin-left: -10%;
+      }
+    }
+}
